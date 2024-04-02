@@ -31,6 +31,12 @@ a {
 	&:focus {
 		text-decoration-line: none;
 	}
+
+	&:where(:not(.wp-element-button)) {
+		&:visited {
+			color: var(--wp--preset--color--purple-1);
+		}
+	}
 }
 
 // Text highlighted via the editor

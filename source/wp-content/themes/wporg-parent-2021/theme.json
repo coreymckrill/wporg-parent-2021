@@ -136,6 +136,11 @@
 					"slug": "lemon-3",
 					"color": "#fffdd6",
 					"name": "Lemon 3"
+				},
+				{
+					"slug": "purple-1",
+					"color": "#7a00df",
+					"name": "Purple 1"
 				}
 			]
 		},
