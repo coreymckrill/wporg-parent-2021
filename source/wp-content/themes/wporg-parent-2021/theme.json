@@ -139,8 +139,18 @@
 				},
 				{
 					"slug": "purple-1",
-					"color": "#7a00df",
+					"color": "#5300be",
 					"name": "Purple 1"
+				},
+				{
+					"slug": "purple-2",
+					"color": "#7a00df",
+					"name": "Purple 2"
+				},
+				{
+					"slug": "purple-3",
+					"color": "#d7a7ff",
+					"name": "Purple 3"
 				}
 			]
 		},
