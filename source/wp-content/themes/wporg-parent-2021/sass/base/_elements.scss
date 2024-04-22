@@ -31,11 +31,11 @@ a {
 	&:focus {
 		text-decoration-line: none;
 	}
+}
 
-	&:where(:not(.wp-element-button)) {
-		&:visited {
-			color: var(--wp--preset--color--purple-1);
-		}
+:where(.entry-content a:not(.wp-element-button)) {
+	&:visited {
+		color: var(--wp--preset--color--purple-1);
 	}
 }
 
