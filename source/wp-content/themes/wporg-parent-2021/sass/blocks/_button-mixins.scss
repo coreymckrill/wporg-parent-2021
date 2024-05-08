@@ -4,6 +4,7 @@
 	@include button-typography-styles;
 	@include button-color-styles;
 	border-radius: var(--wp--custom--button--border--radius);
+	cursor: pointer;
 }
 
 @mixin button-color-styles {
