@@ -32,6 +32,7 @@
 .has-three-columns {
 	--local--sidebar--width: 248px;
 	--local--column-gap: 40px;
+	position: relative;
 	justify-content: flex-end;
 	max-width: 100%;
 
@@ -45,6 +46,7 @@
 
 	main {
 		order: 1;
+		padding-top: var(--wp--preset--spacing--20);
 	}
 
 	article {
@@ -53,11 +55,12 @@
 
 	// Left sidebar: Typically Chapter List
 	> .wp-block-wporg-sidebar-container {
-		margin-top: var(--wp--preset--spacing--20);
+		padding-top: var(--wp--preset--spacing--20);
 	}
 
 	// Right sidebar: Typically Table of Contents
 	article .wp-block-wporg-sidebar-container {
+		margin-block-start: 0;
 		margin-bottom: var(--wp--preset--spacing--50);
 	}
 
@@ -91,7 +94,9 @@
 			margin-right: auto;
 
 			.wp-block-wporg-sidebar-container {
-				inset-inline-end: var(--wp--preset--spacing--edge-space);
+				padding-top: var(--wp--preset--spacing--20);
+				inset-inline-end: calc((var(--local--block-end-sidebar--width) * -1) - var(--local--column-gap));
+				inset-block: 0;
 			}
 		}
 	}
