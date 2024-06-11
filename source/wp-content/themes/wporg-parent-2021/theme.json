@@ -155,9 +155,6 @@
 			]
 		},
 		"custom": {
-			"alignment": {
-				"alignedMaxWidth": "50%"
-			},
 			"button": {
 				"color": {
 					"background": "var(--wp--preset--color--blueberry-1)",

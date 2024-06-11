@@ -17,16 +17,6 @@
 	}
 }
 
-@include break-mobile {
-	// limit size of any element that is aligned left/right
-	.wp-block[data-align="left"], // This is for the editor
-	.wp-block[data-align="right"], // This is for the editor
-	.wp-site-blocks .alignleft,
-	.wp-site-blocks .alignright {
-		max-width: var(--wp--custom--alignment--aligned-max-width);
-	}
-}
-
 // Configures a 3 column layout where `wporg/sidebar-container` blocks sit either side of the main content.
 // Examples: Developer Resources, Documentation.
 .has-three-columns {
