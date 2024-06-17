@@ -78,6 +78,13 @@ function get_locale_customizations( $locale ) {
 					],
 				],
 				'typography' => [
+					'fontFamilies' => [
+						[
+							'fontFamily' => '"Noto Serif JP", serif',
+							'slug' => 'noto-serif-jp',
+							'name' => 'Noto Serif JP',
+						],
+					],
 					'fontSizes' => [
 						[
 							'slug' => 'heading-cta',
