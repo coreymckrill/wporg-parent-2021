@@ -184,7 +184,7 @@ input[type="checkbox"] + label {
 }
 
 // Make spacing smaller for h3 if preceded by h2.
-.wp-site-blocks h2 + .wp-site-blocks h3:not([class*="-font-size"], [style*="font-size"]) {
+.wp-site-blocks h2 + h3:not([class*="-font-size"], [style*="font-size"]) {
 	margin-top: var(--wp--preset--spacing--30);
 }
 
