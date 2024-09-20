@@ -1,5 +1,5 @@
 body.error404 {
-	--oops-font-size: 42vw; // "Magic number" ala https://css-tricks.com/fitting-text-to-a-container/
+	--oops-font-size: 47vw; // "Magic number" ala https://css-tricks.com/fitting-text-to-a-container/
 
 	background-color: var(--wp--preset--color--charcoal-2);
 
@@ -31,14 +31,14 @@ body.error404 {
 				z-index: -1;
 				position: absolute;
 				top: 22px;
-				left: -4.9vw;
+				left: -10vw;
 				font-family: var(--wp--preset--font-family--eb-garamond);
 				font-size: var(--oops-font-size);
 				line-height: var(--oops-font-size);
 				opacity: 0.4; // Make the overlaid text more readable.
 
 				@include break-small() {
-					top: calc(var(--oops-font-size) * -0.25);
+					top: calc(var(--oops-font-size) * -0.58);
 				}
 			}
 		}
