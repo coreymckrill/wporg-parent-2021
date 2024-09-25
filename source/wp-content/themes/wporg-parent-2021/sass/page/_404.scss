@@ -26,6 +26,7 @@ body.error404 {
 			width: 100vw;
 			height: 100vh;
 			overflow: hidden;
+			z-index: -1;
 
 			> p {
 				display: none;
@@ -79,7 +80,6 @@ body.error404 {
 		@include break-small() {
 			margin-top: 55px;
 			max-width: 400px;
-			z-index: 1;
 		}
 
 		.wp-block-search__inside-wrapper {
