@@ -79,6 +79,7 @@ body.error404 {
 		@include break-small() {
 			margin-top: 55px;
 			max-width: 400px;
+			z-index: 1;
 		}
 
 		.wp-block-search__inside-wrapper {
