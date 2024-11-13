@@ -54,9 +54,6 @@ function theme_support() {
 	// Experimental support for adding blocks inside nav menus
 	add_theme_support( 'block-nav-menus' );
 
-	// Add support for admin bar.
-	add_theme_support( 'admin-bar' );
-
 	register_block_pattern_category(
 		'wporg',
 		array(
