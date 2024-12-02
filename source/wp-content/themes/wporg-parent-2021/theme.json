@@ -395,6 +395,19 @@
 								"lineHeight": 1.15
 							}
 						}
+					},
+					"inter": {
+						"typography": {
+							"fontSize": "29px",
+							"lineHeight": 1.4
+						},
+						"breakpoint": {
+							"small-only": {
+								"typography": {
+									"fontSize": "21px"
+								}
+							}
+						}
 					}
 				},
 				"level-4": {
@@ -406,6 +419,19 @@
 							"typography": {
 								"fontSize": "22px",
 								"lineHeight": 1.09
+							}
+						}
+					},
+					"inter": {
+						"typography": {
+							"fontSize": "24px",
+							"lineHeight": 1.4
+						},
+						"breakpoint": {
+							"small-only": {
+								"typography": {
+									"fontSize": "17px"
+								}
 							}
 						}
 					}
@@ -421,6 +447,19 @@
 								"lineHeight": 1.2
 							}
 						}
+					},
+					"inter": {
+						"typography": {
+							"fontSize": "20px",
+							"lineHeight": 1.4
+						},
+						"breakpoint": {
+							"small-only": {
+								"typography": {
+									"fontSize": "15px"
+								}
+							}
+						}
 					}
 				},
 				"level-6": {
@@ -432,6 +471,19 @@
 							"typography": {
 								"fontSize": "18px",
 								"lineHeight": 1.22
+							}
+						}
+					},
+					"inter": {
+						"typography": {
+							"fontSize": "18px",
+							"lineHeight": 1.4
+						},
+						"breakpoint": {
+							"small-only": {
+								"typography": {
+									"fontSize": "14px"
+								}
 							}
 						}
 					}
