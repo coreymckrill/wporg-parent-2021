@@ -430,7 +430,7 @@
 						"breakpoint": {
 							"small-only": {
 								"typography": {
-									"fontSize": "17px"
+									"fontSize": "19px"
 								}
 							}
 						}
@@ -456,7 +456,7 @@
 						"breakpoint": {
 							"small-only": {
 								"typography": {
-									"fontSize": "15px"
+									"fontSize": "17px"
 								}
 							}
 						}
@@ -482,7 +482,7 @@
 						"breakpoint": {
 							"small-only": {
 								"typography": {
-									"fontSize": "14px"
+									"fontSize": "16px"
 								}
 							}
 						}
