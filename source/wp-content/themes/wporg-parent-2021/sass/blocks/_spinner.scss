@@ -1,0 +1,49 @@
+.wporg-spinner {
+	--local-size: 16px;
+	--spinner-color: var(--wp--preset--color--blueberry-1, currentColor);
+	--background-stroke-color: rgb(221, 221, 221);
+
+	width: var(--local-size);
+	height: var(--local-size);
+	display: inline-block; /* Behaves like an inline element */
+	background-color: transparent;
+	position: relative; /* Needed for pseudo-elements to position relative to this element */
+}
+
+/* Static outer circle */
+.wporg-spinner::before {
+content: '';
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 1.5px solid var(--background-stroke-color);
+	display: block; /* Makes the pseudo-element a block for proper sizing */
+	box-sizing: border-box; /* Ensures borders are included in size calculations */
+}
+
+/* Rotating semicircle (arc) */
+.wporg-spinner::after {
+content: '';
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 1.5px solid transparent;
+	border-top-color: var(--spinner-color);
+	border-right-color: var(--spinner-color);
+	display: block;
+	box-sizing: border-box;
+	animation: spinner-rotate 1.4s linear infinite;
+	transform-origin: center;
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes spinner-rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
