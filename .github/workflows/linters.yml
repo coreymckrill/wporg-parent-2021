@@ -19,4 +19,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Lint
-        uses: WordPress/wporg-repo-tools/.github/actions/lint@trunk
+        uses: WordPress/wporg-repo-tools/.github/actions/lint@try/conditionally-run-php-check
