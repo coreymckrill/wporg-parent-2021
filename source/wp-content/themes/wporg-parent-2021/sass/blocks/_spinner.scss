@@ -5,9 +5,9 @@
 
 	width: var(--local-size);
 	height: var(--local-size);
-	display: inline-block; /* Behaves like an inline element */
+	display: inline-block;
 	background-color: transparent;
-	position: relative; /* Needed for pseudo-elements to position relative to this element */
+	position: relative;
 }
 
 /* Static outer circle */
@@ -17,8 +17,8 @@ content: '';
 	height: 100%;
 	border-radius: 50%;
 	border: 1.5px solid var(--background-stroke-color);
-	display: block; /* Makes the pseudo-element a block for proper sizing */
-	box-sizing: border-box; /* Ensures borders are included in size calculations */
+	display: block;
+	box-sizing: border-box;
 }
 
 /* Rotating semicircle (arc) */
