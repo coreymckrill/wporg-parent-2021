@@ -15,7 +15,8 @@
 		"setup:tools": "yarn && composer install && TEXTDOMAIN=wporg composer exec update-configs",
 		"setup:wp": "wp-env run cli bash env/setup.sh",
 		"update:tools": "composer update && TEXTDOMAIN=wporg composer exec update-configs",
-		"wp-env": "wp-env"
+		"wp-env": "wp-env",
+		"lint:php": "echo \"No PHP lint.\""
 	},
 	"workspaces": [
 		"source/wp-content/themes/wporg-parent-2021"
