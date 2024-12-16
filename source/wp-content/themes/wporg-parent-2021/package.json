@@ -20,7 +20,8 @@
 		"build": "node build-styles.js",
 		"start": "chokidar \"sass/**/*.scss\" -c \"node build-styles.js\" --initial",
 		"lint:css": "wp-scripts lint-style sass",
-		"lint:js": "echo \"No JS.\""
+		"lint:js": "echo \"No JS.\"",
+		"lint:php": "echo \"No PHP lint.\""
 	},
 	"browserslist": [
 		"extends @wordpress/browserslist-config"
