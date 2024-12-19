@@ -260,10 +260,10 @@
 					"block": "calc(var(--wp--preset--spacing--10) * 0.8)"
 				},
 				"border": {
-					"color": "transparent",
+					"color": "var(--wp--preset--color--charcoal-5)",
 					"radius": "2px",
 					"style": "solid",
-					"width": "0"
+					"width": "1px"
 				},
 				"color": {
 					"label": "inherit",
@@ -286,6 +286,9 @@
 						"label": "var(--wp--preset--color--charcoal-4)",
 						"background": "var(--wp--preset--color--light-grey-2)",
 						"text": "var(--wp--preset--color--charcoal-1)"
+					},
+					"border": {
+						"width": "0"
 					}
 				}
 			},
